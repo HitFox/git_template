@@ -1,8 +1,11 @@
 HitFox git template
 =========================
 
-This repo contains helpful [git hooks][git_docs_hooks] that will be copied to the $GIT_DIR after it is created.
+This repo contains helpful [git hooks][git_docs_hooks] that will be copied to the $GIT_DIR of a project 
+after it is created.
+
 See [git template][git_docs_template] for documentation.
+
 
 Install
 ----------------------
@@ -26,8 +29,8 @@ Update
 ----------------------
 If the template changed after creating a repository, you can simply run `git init` 
 inside that repository again and it will pick up the new template.
-Be aware that your personal hooks that are not in the git template repo will be deleted.
-
+Be aware that only files and directories get copied that are not already present in your .git folder of 
+your project.
 
 
 
