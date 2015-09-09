@@ -1,4 +1,4 @@
-HitFox git template
+git template
 =========================
 
 This repo contains helpful [git hooks][git_docs_hooks] that will be copied to the $GIT_DIR of a project 
@@ -11,7 +11,7 @@ Install
 ----------------------
 Clone repo to your $HOME. You could also choose another folder for the git template.
 ```bash
-git clone git@github.com:HitFox/git_template.git ~/.git_template
+git clone git@github.com:kr1sp1n/git_template.git ~/.git_template
 ```
 
 
